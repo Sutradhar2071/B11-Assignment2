@@ -127,3 +127,64 @@ a{
     color: #FFFFFF;
     padding: 10px;
 }
+
+/* main styled item */
+
+.curriculum{
+    max-width: 1160px;
+    text-align: center;
+    margin: 0px auto;
+    margin-top: 80px;
+}
+
+.curriculum-title{
+    color: #000000;
+    font-weight: 700;
+    font-size: 2.8rem;
+}
+
+.curriculum-card{
+    display: flex;
+    gap:28px;
+    justify-content: space-between;
+    margin-top: 80px;
+    box-shadow: ;
+    height: 476px;
+}
+
+.card-1{
+    border-radius: 8px;
+    background: linear-gradient(to bottom, #DEF5FF, #FFFFFF);
+    max-width: 365px;
+    padding: 30px 10px;
+}
+
+.card-2{
+    border-radius: 8px;
+    background: linear-gradient(to bottom, #FFF4DC, #FFFFFF);
+    max-width: 365px;
+    padding: 30px 10px;
+}
+
+.card-3{
+    border-radius: 8px;
+    background: linear-gradient(to bottom, #F2E8FF, #FFFFFF);
+    max-width: 365px;
+    padding: 30px 10px;
+}
+
+.card-title{
+    font-weight: 700;
+    font-size: 1.5rem;
+    color: #202020;
+}
+
+.card-des{
+    font-size: 0.98rem;
+    font-weight: 500;
+    color: #808080;
+}
+
+.card-btn{
+    color: #64C8FF;
+}
