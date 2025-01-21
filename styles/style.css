@@ -8,12 +8,27 @@
   font-style: normal;
 }
 
+/* extra */
+
+/* .button1{
+    width: 150px;
+    background-color: rgba(254, 163, 1, 1);
+    font-size: 1.25rem;
+    font-weight: 600;
+    border-radius: 8px;
+    color: #FFFFFF;
+    padding: 10px;
+} */
+
 /* shared item */
 
-body{
+.body{
     max-width: 1440px;
     background-color: #FFFFFF;
+    border: 4px solid;
 }
+
+/* nav style */
 
 .navbar{
     display: flex;
@@ -25,11 +40,13 @@ nav{
     height: 102px;
     justify-content: space-around;
     align-items: center;
+    margin: 0px auto;
+    /* border: 2px solid red; */
 }
 ul{
     display: flex;
     max-width: 387px;
-    justify-content: space-around;
+    justify-content: space-between;
     gap: 30px;
 }
 
@@ -73,3 +90,40 @@ a{
     padding: 10px;
 }
 
+/* banner item style */
+
+.banner{
+    display: flex;
+    align-items: center;
+    max-width: 1158.61px;
+    margin: 0px auto;
+    /* border: 2px solid; */
+}
+
+.banner-title{
+    font-weight: 700;
+    font-size: 3.5rem;
+}
+
+.Empowering {
+    color: rgba(254, 163, 1, 1);
+}
+
+.towards-vision{
+    color: rgba(1, 172, 253, 1);
+}
+
+.banner-description{
+    color: rgba(17, 17, 17, 1);
+    font-size: 1.2rem;
+}
+
+.btn-2{
+    width: 150px;
+    background-color: rgba(17, 17, 17, 1);
+    font-size: 1.25rem;
+    font-weight: 700;
+    border-radius: 8px;
+    color: #FFFFFF;
+    padding: 10px;
+}
