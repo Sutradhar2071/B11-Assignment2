@@ -308,3 +308,18 @@ a{
     color: #FFFFFF;
     padding: 10px;
 }
+
+/* footer styled */
+
+.footer-container{
+    display: flex;
+    background-color: #01ACFD;
+    height: 520px;
+}
+
+.img-foot{
+    width: 100%;
+}
+.footer-1{
+    display: flex;
+}
