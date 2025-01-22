@@ -351,3 +351,9 @@ footer{
     display: flex;
 }
 
+/* media query work */
+
+@media screen and (max-width: 576px) {
+    
+}
+
