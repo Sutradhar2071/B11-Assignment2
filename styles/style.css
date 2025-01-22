@@ -34,6 +34,18 @@
     display: flex;
 }
 
+.menu-bar{
+    display: inline-block;
+}
+
+.menu{
+    width: 35px;
+    height: 5px;
+    background-color: black;
+    margin:6px 0px;
+    display: none;
+}
+
 nav{
     display: flex;
     max-width: 1160px;
@@ -354,6 +366,40 @@ footer{
 /* media query work */
 
 @media screen and (max-width: 576px) {
-    
+    ul,
+    .button1{
+        display: none;
+    }
+    .banner{
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .curriculum-card{
+        flex-direction: column;
+    }
+    .stories-card-1{
+        display: none;
+    }
+    .symbol{
+        display: none;
+    }
+    .stories{
+        margin-top: 1000px;
+
+    }
+    .stories-card-grid{
+        display: grid;
+        grid-template-columns:repeat(2,2fr);
+    }
+    .footer-container{
+        flex-direction: column;
+    }
+    .footer-1{
+        flex-direction: column;
+    }
+    .menu{
+        display: block;
+    }
+
 }
 
